@@ -1,0 +1,6 @@
+[submodule "src/md380tools"]
+	path = src/md380tools
+	url = git@github.com:travisgoodspeed/md380tools.git
+[submodule "src/callrec"]
+	path = src/callrec
+	url = git@github.com:BrandMeister/callrec.git
