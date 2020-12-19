@@ -22,8 +22,9 @@ No: this is too easy to misconfigure so that unlicensed users could transmit, po
 
 ## Setup
 
-The setup is considerably easier than my other software stack that uses the Open DMR protocol [dmr-brandmeister](https://github.com/redfast00/dmr-brandmeister):
+The setup is considerably easier than my other software stack that uses the Open DMR protocol [brandmeister-dmr-opendmr](https://github.com/redfast00/brandmeister-dmr-opendmr):
 
+0. Clone this repository with `git clone --recurse-submodules -j8 https://github.com/redfast00/brandmeister-dmr-sea.git` to make sure
 1. Copy the config file from `config/config_example.json` to `config/config.json` and fill in the required information. Note that you will have to ask the Brandmeister administrator of your country for a Simple External Application.
 2. Build the docker container with `./build.sh`
 3. Start the docker container with `./start.sh`
