@@ -1,0 +1,25 @@
+{
+	"serverHost": "master.ham-dmr.be",
+	"serverPort": 54005,
+	"serverPassword": "<insert password here>",
+	"serverTimeoutSeconds": 12,
+	"appID": 123456,
+	"recTalkgroupID": 91,
+	"callHangTimeSeconds": 3,
+	"callExecCommand1": "tee talk.log",
+	"callExecCommand1ShowStderr": false,
+	"callExecCommand2": "tee /tmp/dmr.fifo",
+	"callExecCommand2ShowStderr": false,
+	"callExecCommand3": "",
+	"callExecCommand3ShowStderr": false,
+	"outputDir": "",
+	"outputFileExtension": "ambe",
+	"createDailyAggregateFile": true,
+	"mumble" : {
+		"server": "mumble.example.com",
+		"username": "DMR-bot",
+		"password": "<mumble password>",
+		"channel": "amateurradio",
+		"fifo": "/tmp/audio.fifo"
+	}
+}
