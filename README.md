@@ -1,7 +1,7 @@
 # Brandmeister bridge to mumble
 
 Stream Brandmeister DMR calls using the Simple External Application
-terminal protocol. This connects a BrandMeister
+protocol. This connects a BrandMeister
 DMR talkgroup to a Mumble bot user, enableing
 people to listen to a DMR talkgroup without a
 radio.
@@ -12,9 +12,9 @@ massive amounts of concurrent users.
 
 See [this blogpost](https://redfast00.github.io/05-06-2020/building-a-brandmeister-dmr-bridge.html) for a writeup.
 
-## What's the difference between this and dmr-brandmeister?
+## What's the difference between this and [brandmeister-dmr-opendmr](https://github.com/redfast00/brandmeister-dmr-opendmr)?
 
-This uses the Simple External Applications protocol, dmr-brandmeister uses the Open DMR protocol. For bridging purposes, the administrators have asked to use the Simple External Applications protocol instead of the protocol meant for running hotspots.
+This uses the Simple External Applications protocol, brandmeister-dmr-opendmr uses the Open DMR terminal protocol. For bridging purposes, the administrators have asked to use the Simple External Applications protocol instead of the protocol meant for running hotspots.
 
 ## Can I also talk in Mumble and have the bridge send it to the Brandmeister network?
 
