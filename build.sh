@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t dmr .
+docker build -t brandmeister-dmr-sea .
