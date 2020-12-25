@@ -47,6 +47,6 @@ COPY --from=callrecbuilder /go/callrec .
 COPY --from=md380builder /md380tools/emulator/md380-emu .
 
 COPY src .
-RUN mkdir -p app/config
+RUN mkdir -p /app/shared
 
 CMD ./start.sh
