@@ -10,7 +10,7 @@ Mumble is a free, open source, low latency, high
 quality voice chat application. It can handle
 massive amounts of concurrent users.
 
-See [this blogpost](https://redfast00.github.io/05-06-2020/building-a-brandmeister-dmr-bridge.html) for a writeup.
+See [this blogpost](https://redfast00.github.io/2020-building-a-brandmeister-dmr-bridge.html) for a writeup.
 
 ## What's the difference between this and [brandmeister-dmr-opendmr](https://github.com/redfast00/brandmeister-dmr-opendmr)?
 
